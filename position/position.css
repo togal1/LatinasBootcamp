@@ -1,0 +1,54 @@
+.caja{
+    width: 500px;
+    height: 500px;  
+    background-color: burlywood;
+    margin: 50px;  
+    padding: 10px;
+    border: 5px dotted red ;
+    position:absolute;      
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 400;
+   
+  }
+
+#box1{  
+    background-color: blue; 
+    position:absolute;
+    right: 10px;
+}
+  
+  #box2{  
+    background-color: yellow; 
+    positio:absolute;
+    bottom:10px;
+  }
+  
+  #box3{  
+    background-color: red; 
+    position: relative;
+    left:200px;
+    top:100px
+     }
+  
+  #box4{  
+    background-color: green; 
+    position:absolute;
+    right: 10px;
+    bottom:10px;
+    
+     
+  }
+  
+  #box5{  
+    background-color: orange; 
+    position:absolute;
+    left: 10px;
+    bottom:10px;
+    
+  }
