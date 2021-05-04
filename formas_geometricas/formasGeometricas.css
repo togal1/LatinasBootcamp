@@ -1,0 +1,50 @@
+section{
+    display: block;
+    margin: 0 auto;
+}
+.contenedor{
+    background: #ddf098;
+    display:flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cuadrado{
+    background: #2af118;
+    line-height:200px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;  
+    margin: 50px; 
+  }
+  
+  .circulo{
+    background: #441dd3;
+    line-height:200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  .rectangulo{
+    line-height:150px;
+    background: #e9d41c;
+    width: 250px;
+    height: 150px;
+    margin: 50px;
+    text-indent: 55px;
+    margin-bottom: 90px;
+  }
+  
+  .triangulo{
+    line-height:0px;
+    width: 0;
+    height: 0;    
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid #ad16d3;
+    border-bottom: 100px solid #ad16d3;   
+    text-indent: -90px;
+    margin: 50px;
+  } 
